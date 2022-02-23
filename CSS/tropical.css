@@ -1,0 +1,63 @@
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.logo{
+    height: 100px;
+    width: 40%;
+    display: flex;
+    align-items:center ;
+}
+.logo h3{
+    margin-left: 20px;
+}
+.logo img{
+    height: 80px;
+    width: 100px;
+
+}
+nav{
+    height: 100px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover{
+    background-color: rgb(238, 223, 14);
+    padding: 10px;
+}
+main{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.beach{
+    width: 32%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 130, 83);
+    align-items: center;
+    justify-content: space-around;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 2px grey;
+}
+.beach img{
+    height: 400px;
+    width: 90%;
+
+}
