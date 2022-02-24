@@ -5,7 +5,7 @@
 #travel{
     height: 900px;
     width: 98%;
-    background-image: url("/Travel-Agency/images/Julias-river-camp-game-drives-masaimara.jpg");
+    background-image: url("/images/Julias-river-camp-game-drives-masaimara.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
